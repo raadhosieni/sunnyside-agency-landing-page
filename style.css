@@ -424,6 +424,7 @@ footer .social-links a {
     flex-wrap: wrap;
   }
 
+  .services .srv .content,
   .services .srv .content {
     text-align: left;
     display: flex;
@@ -452,6 +453,12 @@ footer .social-links a {
   .services .srv.ghraphic article,
   .services .srv.photography article {
     flex-basis: 100%;
+  }
+
+  .services .srv.ghraphic .content,
+  .services .srv.photography .content {
+    align-items: center;
+    padding-bottom: 30px;
   }
 
   .services .srv.ghraphic article p,
